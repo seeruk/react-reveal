@@ -39,7 +39,7 @@ export const App = () => {
       <div className="slides">
         <section>
           <h2>React + Reveal.js</h2>
-          <h3>An introduction</h3>
+          <h3>Introduction</h3>
           <p className="mt-8 text-neutral-400 text-xs ">Elliot Wright // 2024</p>
         </section>
         <section data-markdown="" data-background-color="aquamarine">
