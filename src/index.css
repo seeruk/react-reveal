@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    font-size: var(--r-main-font-size);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: none !important;
+}
+
+#root {
+    height: 100dvh;
+    width: 100dvw;
+}
