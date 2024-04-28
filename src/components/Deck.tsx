@@ -31,6 +31,8 @@ export const Deck = ({ children }: PropsWithChildren) => {
       history: true,
     })
 
+    setDeck(deckRef.current)
+
     return () => {
       try {
         deckRef.current?.destroy()

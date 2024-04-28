@@ -10,8 +10,6 @@ export const ExampleRevealApiSlide = () => {
   const deck = useDeck()
   const [slide, setSlide] = useState(0)
 
-  console.log(deck.api)
-
   // React doesn't re-render as the internal state of Reveal.js changes, so we have to hook into
   // events exposed by Reveal.js to update our component state - but we can get some interesting
   // information from the API, like the current slide index!
