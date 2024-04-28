@@ -3,9 +3,10 @@ import { CodeBlock } from "@/components/CodeBlock.tsx"
 export const ExampleCodeSlide = () => {
   return (
     <section data-background-color="darkviolet">
-      Code Example
+      <h2>Code Example</h2>
+      <p>You can include code examples inside slides, and step through highlighting lines, or ranges of lines</p>
 
-      <CodeBlock lineNumbers="3|6|all" lineStart={12}>{`
+      <CodeBlock className="mt-8" lineNumbers="all|3|5-7|all" lineStart={12}>{`
         package main
         
         import "fmt"
