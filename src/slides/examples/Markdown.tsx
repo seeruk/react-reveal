@@ -1,4 +1,4 @@
-import { MarkdownSlide } from "@/components/MarkdownSlide.tsx"
+import { MarkdownSlide } from "@/components/MarkdownSlide"
 
 export const ExampleMarkdownSlide = () => {
   return (
@@ -7,13 +7,9 @@ export const ExampleMarkdownSlide = () => {
         ## Markdown Slide
   
         A paragraph with some text and a [link](https://hakim.se).
-  
-        \`\`\`ts
-        const foo = "bar"
-        console.log(foo)
-        \`\`\`
         
-        Unfortunately, syntax highlighting doesn't appear to work in code blocks here.
+        You can also make things **bold** or *italic* easily. This slide in particular also has some
+        tailwind styles applied to it.
       `}
     </MarkdownSlide>
   )

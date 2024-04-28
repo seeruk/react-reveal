@@ -1,14 +1,27 @@
 :root {
-    --r-background-color: #191919;
+    --cs-black: #000000;
+    --cs-white: #ffffff;
+    --cs-light-red: #e06c75;
+    --cs-dark-red: #be5046;
+    --cs-green: #98c379;
+    --cs-light-yellow: #e5c07b;
+    --cs-dark-yellow: #d19a66;
+    --cs-blue: #61afef;
+    --cs-magenta: #c678dd;
+    --cs-cyan: #56b6c2;
+    --cs-gutter-grey: #4b5263;
+    --cs-comment-grey: #5c6370;
+
+    --r-background-color: var(--cs-black);
     --r-main-font: 'IBM Plex Sans', sans-serif;
     --r-main-font-size: 30px;
-    --r-main-color: #ffffff;
-    --r-main-dark-color: #000000;
+    --r-main-color: var(--cs-white);
+    --r-main-dark-color: var(--cs-black);
     --r-block-margin: 20px;
     --r-heading-margin: 0 0 var(--r-block-margin) 0;
     --r-heading-font: 'IBM Plex Sans', Helvetica, sans-serif;
-    --r-heading-color: #ffffff;
-    --r-heading-dark-color: #000000;
+    --r-heading-color: var(--cs-white);
+    --r-heading-dark-color: var(--cs-black);
     --r-heading-line-height: 1.2;
     --r-heading-letter-spacing: normal;
     --r-heading-text-transform: uppercase;
@@ -20,10 +33,10 @@
     --r-heading3-size: 1.3em;
     --r-heading4-size: 1.0em;
     --r-code-font: 'IBM Plex Mono', monospace;
-    --r-link-color: #42affa;
+    --r-link-color: var(--cs-blue);
     --r-link-color-dark: color-mix(in srgb, var(--r-link-color), black 15%);
     --r-link-color-hover: color-mix(in srgb, var(--r-link-color), white 15%);
-    --r-selection-background-color: color(var(--r-link-color) a(0.75));
+    --r-selection-background-color: color-mix(in srgb, var(--r-link-color), transparent 50%);
     --r-selection-color: #ffffff;
     --r-overlay-element-bg-color: 240, 240, 240;
     --r-overlay-element-fg-color: 0, 0, 0;

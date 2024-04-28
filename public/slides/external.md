@@ -1,6 +1,7 @@
 ## External Markdown
 
-Is also supported, and you can use it to include markdown files exposed in the public folder.
+If you place a **Markdown** file in the `public` folder, it can be used as a slide, supporting any
+of the features supported by inline Markdown slides.
 
 ```go
 package main
@@ -12,4 +13,4 @@ func main() {
 }
 ```
 
-Code is also supported, but syntax highlighting doesn't appear to work in this scenario either.
+Code is supported, but syntax highlighting doesn't appear to work well in Markdown.

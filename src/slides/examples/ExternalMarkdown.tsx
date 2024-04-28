@@ -1,5 +1,5 @@
-import { ExternalMarkdownSlide } from "@/components/ExternalMarkdownSlide.tsx"
+import { ExternalMarkdownSlide } from "@/components/ExternalMarkdownSlide"
 
 export const ExampleExternalMarkdownSlide = () => {
-  return <ExternalMarkdownSlide src="slides/external.md" data-background-color="royalblue" />
+  return <ExternalMarkdownSlide className="text-left" src="slides/external.md" data-background-color="royalblue" />
 }
