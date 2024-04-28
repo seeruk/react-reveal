@@ -5,8 +5,9 @@ import Markdown from "reveal.js/plugin/markdown/markdown"
 import Notes from "reveal.js/plugin/notes/notes"
 
 import "reveal.js/dist/reveal.css"
-import "reveal.js/dist/theme/black.css"
+// import "reveal.js/dist/theme/black.css"
 import "highlight.js/styles/atom-one-dark.css"
+import "./theme.css"
 
 import { ExampleTailwindTitleSlide } from "@/slides/examples/TailwindTitle"
 import { ExampleMarkdownSlide } from "@/slides/examples/Markdown"
