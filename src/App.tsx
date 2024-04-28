@@ -1,5 +1,6 @@
 import { Deck } from "@/components/Deck"
 import { ExampleTailwindTitleSlide } from "@/slides/examples/TailwindTitle"
+import { ExampleRevealApiSlide } from "@/slides/examples/RevealApi"
 import { ExampleMarkdownSlide } from "@/slides/examples/Markdown"
 import { ExampleExternalMarkdownSlide } from "@/slides/examples/ExternalMarkdown"
 import { ExampleCodeSlide } from "@/slides/examples/Code"
@@ -18,6 +19,7 @@ export const App = () => {
       <ExampleMarkdownSlide />
       <ExampleExternalMarkdownSlide />
       <ExampleCodeSlide />
+      <ExampleRevealApiSlide />
       <ExampleSubSlidesSlide />
       <ExampleSpeakerNotesSlide />
       <ExampleFragmentsSlide />
