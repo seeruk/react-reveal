@@ -8,6 +8,7 @@ import { ExampleSubSlidesSlide } from "@/slides/examples/SubSlides"
 import { ExampleSpeakerNotesSlide } from "@/slides/examples/SpeakerNotes"
 import { ExampleFragmentsSlide } from "@/slides/examples/Fragments"
 import { ExampleFitTextSlide } from "@/slides/examples/FitText"
+import { ExampleTransitionsSlide } from "@/slides/examples/Transitions"
 
 import "highlight.js/styles/atom-one-dark.css"
 import "@/theme.css"
@@ -24,6 +25,7 @@ export const App = () => {
       <ExampleSpeakerNotesSlide />
       <ExampleFragmentsSlide />
       <ExampleFitTextSlide />
+      <ExampleTransitionsSlide />
     </Deck>
   )
 }
